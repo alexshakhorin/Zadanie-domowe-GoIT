@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="/node_modules/modern-normalize/modern-normalize.css">
+    <link rel="stylesheet" href="/css/styles.css">
+    <link href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">    
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="navigation">
+                <h2 class="navigation__logo black-theme">
+                    <a class="logo-link link" href="/index.html">
+                        <span class="logo__text">Web</span>Studio
+                    </a>
+                </h2>                
+                <ul class="navigation__list list">
+                    <li class="navigation__list-item">
+                        <a class="navigation__link link" href="/index.html">Agencja</a></li>
+                    <li class="navigation__list-item active">
+                        <a class="navigation__link link active" href="/portfolio.html">Portfolio</a></li>
+                    <li class="navigation__list-item">
+                        <a class="navigation__link link" href="#">Kontakty</a></li>
+                </ul>
+            </nav>
+        <a href="mailto:info@devstudio.com" class="navigation__contact email link">
+          <svg class="email-icon">
+            <use href="./images/sprite.svg#icon-envelope"></use>
+          </svg> info@devstudio.com</a>
+        <a href="tel:+48111111111<" class="navigation__contact phone link"
+          > <svg class="phone-icon">
+            <use href="./images/sprite.svg#icon-smartphone"></use>
+          </svg> +48 111 111 111</a>        </div>
+    </header>
+    <main class="main">
+        <section class="main__section section">
+            <div class="container">
+                <div class="main__list-wrapper">
+                <ul class="main__list-btn list">
+                    <li data-filter="all" class="main__list-item">
+                        <button type="button" class="main__list-button ">Wszystkie</button>
+                    </li>
+                    <li data-filter="strony" class="main__list-item">
+                        <button type="button" class="main__list-button">Strony</button>
+                    </li>
+                    <li data-filter="aplikacje" class="main__list-item">
+                        <button type="button" class="main__list-button">Aplikacje</button>
+                    </li>
+                    <li data-filter="dizajn" class="main__list-item">
+                        <button type="button" class="main__list-button">Dizajn</button>
+                    </li>
+                    <li data-filter="marketing" class="main__list-item">
+                        <button type="button" class="main__list-button">Marketing</button>
+                    </li>
+                </ul>
+                    <ul class="main__list list">
+                        <li class="main__list-card strony">
+                            <img src="images/cards/img-1.jpg" alt="" class="main__card-photo">
+                            <div class="main__card-wrapper">
+                                <h3 class="main__card-header">Technocrack</h3>
+                                <p class="main__card-text">Strona internetowa</p>
+                            </div>
+                        </li>
+                        <li class="main__list-card dizajn">
+                            <img src="images/cards/img-2.jpg" alt="projekt" class="main__card-photo">
+                            <div class="main__card-wrapper">
+                                <h3 class="main__card-header">Grafika New Orlean vs Golden Star</h3>
+                                <p class="main__card-text">Dizajn</p>
+                            </div>
+                        </li>
+                        <li class="main__list-card aplikacje">
+                            <img src="images/cards/img-3.jpg" alt="projekt" class="main__card-photo">
+                            <div class="main__card-wrapper">
+                                <h3 class="main__card-header">Restauracja Seafood</h3>
+                                <p class="main__card-text">Aplikacja</p>
+                            </div>
+                        </li>
+                        <li class="main__list-card marketing">
+                            <img src="images/cards/img-4.jpg" alt="projekt" class="main__card-photo">
+                            <div class="main__card-wrapper">
+                                <h3 class="main__card-header">Projekt Prime</h3>
+                                <p class="main__card-text">Marketing</p>
+                            </div>
+                        </li>
+                        <li class="main__list-card aplikacje">
+                            <img src="images/cards/img-5.jpg" alt="projekt" class="main__card-photo">
+                            <div class="main__card-wrapper">
+                                <h3 class="main__card-header">Projekt Boxes</h3>
+                                <p class="main__card-text">Aplikacja</p>
+                            </div>
+                        </li>
+                        <li class="main__list-card strony">
+                            <img src="images/cards/img-6.jpg" alt="projekt" class="main__card-photo">
+                            <div class="main__card-wrapper">
+                                <h3 class="main__card-header">Inspiration has no Borders</h3>
+                                <p class="main__card-text">Strona internetowa</p>
+                            </div>
+                        </li>
+                        <li class="main__list-card dizajn">
+                            <img src="images/cards/img-7.jpg" alt="projekt" class="main__card-photo">
+                            <div class="main__card-wrapper">
+                                <h3 class="main__card-header">Magazyn Limited Edition</h3>
+                                <p class="main__card-text">Dizajn</p>
+                            </div>
+                        </li>
+                        <li class="main__list-card marketing">
+                            <img src="images/cards/img-8.jpg" alt="projekt" class="main__card-photo">
+                            <div class="main__card-wrapper">
+                                <h3 class="main__card-header">Projekt LAB</h3>
+                                <p class="main__card-text">Marketing</p>
+                            </div>
+                        </li>
+                        <li class="main__list-card aplikacje">
+                            <img src="images/cards/img.jpg" alt="projekt" class="main__card-photo">
+                            <div class="main__card-wrapper">
+                                <h3 class="main__card-header">Growing Business</h3>
+                                <p class="main__card-text">Aplikacja</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+       <footer class="footer">
+      <div class="container">
+        <div class="footer__wrapper">
+        <h2 class="footer__logo white-theme">
+          <a class="logo-link link" href="/index.html">
+            <span class="logo__text">Web</span>Studio
+          </a>
+        </h2>
+          <address class="footer__contacts">
+            <ul class="footer__list list">
+              <li class="footer__list-item">
+                <a href="#" class="footer__list-link link"
+                  >m. Warszawa, Aleje Jerozolimskie 21</a
+                >
+              </li>
+              <li class="footer__list-item">
+                <a href="#" class="footer__list-link link">info@example.com</a>
+              </li>
+              <li class="footer__list-item">
+                <a href="#" class="footer__list-link link">+48 111 111 111</a>
+              </li>
+            </ul>
+          </address>
+        </div>
+        <div class="footer-social">
+          <h3 class="footer__social-title">Dołącz do nas
+          </h3>
+            <ul class="social-list list">
+                <li class="social-list-item">
+                    <a href="" class="social-icon-link">
+                      <svg class="social-icon">
+                      <use href="./images/social-icons.svg#icon-instagram-2">
+                      </use>
+                    </svg>
+                    </a>
+                </li>
+                <li class="social-list-item">
+                    <a href="" class="social-icon-link">
+                      <svg class="social-icon">
+                      <use href="./images/social-icons.svg#icon-twitter-1">
+                      </use>
+                    </svg>
+                    </a>
+                </li>
+                <li class="social-list-item">
+                    <a href="" class="social-icon-link">
+                      <svg class="social-icon">
+                      <use href="./images/social-icons.svg#icon-facebook-1">
+                      </use>
+                    </svg>
+                    </a>
+                </li>
+                <li class="social-list-item">
+                    <a href="" class="social-icon-link">
+                      <svg class="social-icon">
+                      <use href="./images/social-icons.svg#icon-linkedin-1">
+                      </use>
+                    </svg>
+                    </a>
+                </li>
+            </ul>
+        </div>
+      </div>
+    </footer>
+    <script
+        src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+        crossorigin="anonymous">
+    </script>
+
+    <script type="text/javascript">
+    $(document).ready(function(){
+        $('.main__list-item').click(function(){
+            const value = $(this).attr('data-filter');
+            if (value == 'all'){
+                $('.main__list-card').show('1000');
+            }
+            else {
+                $('.main__list-card').not('.'+value).hide('1000');
+                $('.main__list-card').filter('.'+value).show('1000');
+            }
+        })
+    })
+    </script>
+</body>
+</html>
